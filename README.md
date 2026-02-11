@@ -1,23 +1,50 @@
-# Online Retail SQL Analysis
+#  Online Retail Sales Analysis (SQL Project)
 
-## Project Overview
-This project analyzes online retail sales and returns data using SQL.
-
-## Tools Used
-- PostgreSQL
-- SQL
-- GitHub
-
-## Key Analysis
-- Yearly sales performance
-- Product return impact
-- Net sales efficiency
+##  Business Problem
+Due to economic downturn, the company reduced staff from 25 to 5 employees.
+Management needs clear insights on:
+- Sales performance
+- Return impact
+- Profit efficiency
 - Shipping cost trends
 
-## Project Structure
-- data/ → raw datasets
-- sql_queries/ → SQL scripts
-- insights/ → key findings
+##  Objective
+Use SQL to analyze sales and returns data to uncover:
+- Revenue trends
+- Product performance
+- Return impact on profitability
+- Operational cost insights
 
-# Author
+---
+
+##  Key Business Questions Answered
+
+1. How did yearly net sales perform?
+2. Which product types lose the most money due to returns?
+3. What is the net sales efficiency ratio?
+4. How much does shipping cost impact revenue?
+
+---
+
+##  Tools Used
+- PostgreSQL
+- SQL (Aggregation, Group By, NULLIF, Rounding)
+- GitHub
+
+---
+
+## 📊 Key Insights
+
+- Certain product types show high return-related losses.
+- Net sales efficiency varies across products.
+- Shipping costs significantly affect overall profit margins.
+- Defensive SQL logic (NULLIF) prevents division-by-zero errors.
+
+---
+
+
+---
+
+##  Author
 Eyinade Blessing
+Aspiring Data Analyst | SQL | Power BI | Excel
